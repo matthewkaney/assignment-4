@@ -8,8 +8,7 @@ let serverURL;
 if (import.meta.env.DEV) {
   serverURL = "ws://127.0.0.1:3000/";
 } else {
-  // REPLACE THIS WITH THE URL YOU GET FROM RENDER
-  serverURL = "";
+  serverURL = "wss://assignment-4-zshp.onrender.com";
 }
 
 let root = createRoot(document.getElementById("app"));
